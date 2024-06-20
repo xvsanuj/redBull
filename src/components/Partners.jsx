@@ -1,7 +1,7 @@
 const Partners = () => {
   return (
-    <div>
-        
+    <div className="h-screen w-full bg-[#111]">
+        <img src="" alt="" />
     </div>
   )
 }
