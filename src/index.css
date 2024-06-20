@@ -1,13 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-*{
-    font-family: Gilroy;
-}
-.bebas{
+@font-face {
     font-family: 'Bebas Neue';
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+
+/* *{
+    font-family: Gilroy;
+} */
+.bebas{
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 ::-webkit-scrollbar{
